@@ -7,4 +7,4 @@ if [ ! -d "$dir" ]; then
   mkdir "$dir"
 fi
 
-tar -xvf "$archive" -C "$dir"
+tar -xvf "$archive" -C "$dir" --strip-components 1
